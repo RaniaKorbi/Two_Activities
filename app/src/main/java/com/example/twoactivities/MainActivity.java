@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.d(LOG_TAG, "onSave");
+        Log.d(LOG_TAG, "onSaveInstanceState");
         // If the heading is visible, message needs to be saved.
         // Otherwise we're still using default layout.
         if (mReplyHeadTextView.getVisibility() == View.VISIBLE) {
